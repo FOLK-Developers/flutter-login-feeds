@@ -1,0 +1,579 @@
+{
+  "project_info": {
+    "project_number": "236437724639",
+    "firebase_url": "https://folk-test-8a3ae.firebaseio.com",
+    "project_id": "folk-test-8a3ae",
+    "storage_bucket": "folk-test-8a3ae.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:236437724639:android:9fa9e8f04292af77c0b86a",
+        "android_client_info": {
+          "package_name": "com.aikya.folk"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "236437724639-jqicnpvurt8sr6s9j85matpklgipf0tm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.aikya.folk",
+            "certificate_hash": "41a7281a49588234d5bd7766da1714214ca5cfde"
+          }
+        },
+        {
+          "client_id": "236437724639-o4bm4b1fcb8405ldhd73ll586hnr1rjq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1Vid8seNQhvbWUL7X4TYqhNPmpLDjc7s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "236437724639-tgknd7t9m3dfh12ctep7f8kb817bb45n.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "236437724639-gv384017ljee0g9d8rf3gj2qg1fnurpt.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "in.folknet.attendanceApp"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:236437724639:android:07f76ea992b5d297c0b86a",
+        "android_client_info": {
+          "package_name": "com.example.fcm_demo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "236437724639-o4bm4b1fcb8405ldhd73ll586hnr1rjq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1Vid8seNQhvbWUL7X4TYqhNPmpLDjc7s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "236437724639-tgknd7t9m3dfh12ctep7f8kb817bb45n.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "236437724639-gv384017ljee0g9d8rf3gj2qg1fnurpt.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "in.folknet.attendanceApp"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:236437724639:android:29d728c8299a1e82c0b86a",
+        "android_client_info": {
+          "package_name": "com.example.feedfeaturefolkapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "236437724639-jurivppf0bctupe5p7idqs492tokqpk1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.feedfeaturefolkapp",
+            "certificate_hash": "f8ae1e5db2a61a12569f3e3257aa35e5a3330da5"
+          }
+        },
+        {
+          "client_id": "236437724639-o4bm4b1fcb8405ldhd73ll586hnr1rjq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1Vid8seNQhvbWUL7X4TYqhNPmpLDjc7s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "236437724639-tgknd7t9m3dfh12ctep7f8kb817bb45n.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "236437724639-gv384017ljee0g9d8rf3gj2qg1fnurpt.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "in.folknet.attendanceApp"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:236437724639:android:2f9abf9afb84b65ac0b86a",
+        "android_client_info": {
+          "package_name": "com.example.folk_demo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "236437724639-n9sk1t2oh24ufn08ac4bd9qg53a81rrt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.folk_demo",
+            "certificate_hash": "f8ae1e5db2a61a12569f3e3257aa35e5a3330da5"
+          }
+        },
+        {
+          "client_id": "236437724639-bk38bqkmim24q25d27ddurog1kt2upqo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.folk_demo",
+            "certificate_hash": "d50a13aacc556d241d65664f893bc49102dd6dcb"
+          }
+        },
+        {
+          "client_id": "236437724639-2836bej2ol1pnvigd4mveg8tnatd77cl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.folk_demo",
+            "certificate_hash": "9378b7763eeca5723c0ca0cab2d8f4d65277e1c8"
+          }
+        },
+        {
+          "client_id": "236437724639-o4bm4b1fcb8405ldhd73ll586hnr1rjq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1Vid8seNQhvbWUL7X4TYqhNPmpLDjc7s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "236437724639-tgknd7t9m3dfh12ctep7f8kb817bb45n.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "236437724639-gv384017ljee0g9d8rf3gj2qg1fnurpt.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "in.folknet.attendanceApp"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:236437724639:android:a3872ae0f66c22fec0b86a",
+        "android_client_info": {
+          "package_name": "com.example.folk_guide"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "236437724639-qbofc0n0fnjtsd718s15tdgmglds0mtk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.folk_guide",
+            "certificate_hash": "1b7390f909cfae55d199d1b0b8db85a4eac11e93"
+          }
+        },
+        {
+          "client_id": "236437724639-de20v5c7s6n4h58e9j4f9srdslr34lte.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.folk_guide",
+            "certificate_hash": "c4d1720acc91127420734ce5a1b65a4442554db5"
+          }
+        },
+        {
+          "client_id": "236437724639-ps2k3kpegl4lhn8c7nsst1b5edipl3p5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.folk_guide",
+            "certificate_hash": "9378b7763eeca5723c0ca0cab2d8f4d65277e1c8"
+          }
+        },
+        {
+          "client_id": "236437724639-ft95jgvbt9f16dmhngktr09lcu135kh5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.folk_guide",
+            "certificate_hash": "d50a13aacc556d241d65664f893bc49102dd6dcb"
+          }
+        },
+        {
+          "client_id": "236437724639-o4bm4b1fcb8405ldhd73ll586hnr1rjq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1Vid8seNQhvbWUL7X4TYqhNPmpLDjc7s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "236437724639-tgknd7t9m3dfh12ctep7f8kb817bb45n.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "236437724639-gv384017ljee0g9d8rf3gj2qg1fnurpt.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "in.folknet.attendanceApp"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:236437724639:android:73be061c7e597801c0b86a",
+        "android_client_info": {
+          "package_name": "com.example.folk_mock"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "236437724639-o4bm4b1fcb8405ldhd73ll586hnr1rjq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1Vid8seNQhvbWUL7X4TYqhNPmpLDjc7s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "236437724639-tgknd7t9m3dfh12ctep7f8kb817bb45n.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "236437724639-gv384017ljee0g9d8rf3gj2qg1fnurpt.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "in.folknet.attendanceApp"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:236437724639:android:f5fa01be74d01c85c0b86a",
+        "android_client_info": {
+          "package_name": "com.example.storyfeatureguidesapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "236437724639-lddpbrjm002ui23o03o1ltlrroi0h77e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.storyfeatureguidesapp",
+            "certificate_hash": "f8ae1e5db2a61a12569f3e3257aa35e5a3330da5"
+          }
+        },
+        {
+          "client_id": "236437724639-o4bm4b1fcb8405ldhd73ll586hnr1rjq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1Vid8seNQhvbWUL7X4TYqhNPmpLDjc7s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "236437724639-tgknd7t9m3dfh12ctep7f8kb817bb45n.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "236437724639-gv384017ljee0g9d8rf3gj2qg1fnurpt.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "in.folknet.attendanceApp"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:236437724639:android:3765169dae1c9aefc0b86a",
+        "android_client_info": {
+          "package_name": "com.renfrost.firstassignment"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "236437724639-iku5icm7le2vkjkjos7559fqjjral6b6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.renfrost.firstassignment",
+            "certificate_hash": "41a7281a49588234d5bd7766da1714214ca5cfde"
+          }
+        },
+        {
+          "client_id": "236437724639-4kc43iq6a474reufnocc8u9995a3leo5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.renfrost.firstassignment",
+            "certificate_hash": "1b7390f909cfae55d199d1b0b8db85a4eac11e93"
+          }
+        },
+        {
+          "client_id": "236437724639-5ugkmq7qgu0e88osroo28bv93atqhqh3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.renfrost.firstassignment",
+            "certificate_hash": "c4d1720acc91127420734ce5a1b65a4442554db5"
+          }
+        },
+        {
+          "client_id": "236437724639-o4bm4b1fcb8405ldhd73ll586hnr1rjq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1Vid8seNQhvbWUL7X4TYqhNPmpLDjc7s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "236437724639-tgknd7t9m3dfh12ctep7f8kb817bb45n.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "236437724639-gv384017ljee0g9d8rf3gj2qg1fnurpt.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "in.folknet.attendanceApp"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:236437724639:android:7f0a75095c2b80e6c0b86a",
+        "android_client_info": {
+          "package_name": "in.folknet.attendanceApp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "236437724639-m81rl2qrjjfhnt1em1lisgldn11agpdm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "in.folknet.attendanceApp",
+            "certificate_hash": "1b7390f909cfae55d199d1b0b8db85a4eac11e93"
+          }
+        },
+        {
+          "client_id": "236437724639-o4bm4b1fcb8405ldhd73ll586hnr1rjq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1Vid8seNQhvbWUL7X4TYqhNPmpLDjc7s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "236437724639-tgknd7t9m3dfh12ctep7f8kb817bb45n.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "236437724639-gv384017ljee0g9d8rf3gj2qg1fnurpt.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "in.folknet.attendanceApp"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:236437724639:android:21fa4f6782eb5388c0b86a",
+        "android_client_info": {
+          "package_name": "in.folknet.folkEvents"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "236437724639-i13b07na1k14gt38atlb9eakd4g7p0pb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "in.folknet.folkEvents",
+            "certificate_hash": "1b7390f909cfae55d199d1b0b8db85a4eac11e93"
+          }
+        },
+        {
+          "client_id": "236437724639-o4bm4b1fcb8405ldhd73ll586hnr1rjq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1Vid8seNQhvbWUL7X4TYqhNPmpLDjc7s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "236437724639-tgknd7t9m3dfh12ctep7f8kb817bb45n.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "236437724639-gv384017ljee0g9d8rf3gj2qg1fnurpt.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "in.folknet.attendanceApp"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:236437724639:android:671d3ffd0553a3d2c0b86a",
+        "android_client_info": {
+          "package_name": "in.folknet.folk_guide"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "236437724639-opqpi23nv9mjk4i1aoa2grngi2hk814b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "in.folknet.folk_guide",
+            "certificate_hash": "45ff9d553a517f0077aa1ece3981c97c51143ac4"
+          }
+        },
+        {
+          "client_id": "236437724639-o4bm4b1fcb8405ldhd73ll586hnr1rjq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1Vid8seNQhvbWUL7X4TYqhNPmpLDjc7s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "236437724639-tgknd7t9m3dfh12ctep7f8kb817bb45n.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "236437724639-gv384017ljee0g9d8rf3gj2qg1fnurpt.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "in.folknet.attendanceApp"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:236437724639:android:97a210163a9e4fcdc0b86a",
+        "android_client_info": {
+          "package_name": "in.folknet.gauranga"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "236437724639-dvvtdf6nfn29rt88eks78j8r0l0lvc06.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "in.folknet.gauranga",
+            "certificate_hash": "1b7390f909cfae55d199d1b0b8db85a4eac11e93"
+          }
+        },
+        {
+          "client_id": "236437724639-o4bm4b1fcb8405ldhd73ll586hnr1rjq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1Vid8seNQhvbWUL7X4TYqhNPmpLDjc7s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "236437724639-tgknd7t9m3dfh12ctep7f8kb817bb45n.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "236437724639-gv384017ljee0g9d8rf3gj2qg1fnurpt.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "in.folknet.attendanceApp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
