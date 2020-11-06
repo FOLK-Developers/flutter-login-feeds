@@ -34,99 +34,92 @@ class _PostsState extends State<Posts> {
     final df = new DateFormat('dd-MM-yyyy hh:mm a');
     String creationDate =
         df.format(DateTime.fromMillisecondsSinceEpoch(time * 1000));
-    return ListBody(
-      children: <Widget>[
-        Material(
-          child: Container(
-              padding: EdgeInsets.symmetric(vertical: 5),
-              child: Column(
-                children: [
-                  Row(
+    return Material(
+      child: Container(
+          padding: EdgeInsets.symmetric(vertical: 5),
+          child: Column(
+            children: [
+              Row(
+                children: <Widget>[
+                  Padding(
+                    padding: EdgeInsets.only(right: 5, bottom: 15),
+                  ),
+                  ClipOval(
+                    child: Image(
+                      image: NetworkImage(
+                          widget.recordFeed.data()['channel_image_url']),
+                      width: 60,
+                      height: 60,
+                      fit: BoxFit.cover,
+                    ),
+                  ),
+                  Container(
+                    // width: width * 0.05,
+                    padding: EdgeInsets.only(left: 0),
+                  ),
+                  Column(
                     children: <Widget>[
-                      Padding(
-                        padding: EdgeInsets.only(right: 5, bottom: 15),
-                      ),
-                      ClipOval(
-                        child: Image(
-                          image: NetworkImage(
-                              widget.recordFeed.data()['channel_image_url']),
-                          width: 60,
-                          height: 60,
-                          fit: BoxFit.cover,
-                        ),
+                      Column(
+                        mainAxisAlignment: MainAxisAlignment.start,
+                        children: [
+                          Padding(
+                            padding: EdgeInsets.only(right: 5),
+                          ),
+                          Text(
+                            widget.recordFeed.data()['channel_name'],
+                            style: /*TextStyle*/ TextStyle(
+                              fontSize: 14,
+                              fontWeight: FontWeight.w700,
+                            ),
+                            textAlign: TextAlign.start,
+                          )
+                        ],
                       ),
                       Container(
-                        // width: width * 0.05,
-                        padding: EdgeInsets.only(left: 0),
+                        padding: EdgeInsets.only(top: 10),
                       ),
-                      Column(
+                      Row(
                         children: <Widget>[
-                          Column(
-                            mainAxisAlignment: MainAxisAlignment.start,
-                            children: [
-                              Padding(
-                                padding: EdgeInsets.only(right: 5),
-                              ),
-                              Text(
-                                widget.recordFeed.data()['channel_name'],
-                                style: /*TextStyle*/ TextStyle(
-                                  fontSize: 14,
-                                  fontWeight: FontWeight.w700,
-                                ),
-                                textAlign: TextAlign.start,
-                              )
-                            ],
+                          Padding(
+                            padding: EdgeInsets.only(right: 5),
                           ),
-                          Container(
-                            padding: EdgeInsets.only(top: 10),
-                          ),
-                          Row(
-                            children: <Widget>[
-                              Padding(
-                                padding: EdgeInsets.only(right: 5),
-                              ),
-                              Text(creationDate,
-                                  style: TextStyle(
-                                      fontSize: 10,
-                                      fontWeight: FontWeight.w600)),
-                              Text(' by ',
-                                  style: TextStyle(
-                                      fontSize: 8,
-                                      fontWeight: FontWeight.w600)),
-                              Text(widget.recordFeed.data()['feed_by'],
-                                  style: TextStyle(
-                                      fontSize: 10,
-                                      fontWeight: FontWeight.w600)),
-                            ],
-                          ),
+                          Text(creationDate,
+                              style: TextStyle(
+                                  fontSize: 10, fontWeight: FontWeight.w600)),
+                          Text(' by ',
+                              style: TextStyle(
+                                  fontSize: 8, fontWeight: FontWeight.w600)),
+                          Text(widget.recordFeed.data()['feed_by'],
+                              style: TextStyle(
+                                  fontSize: 10, fontWeight: FontWeight.w600)),
                         ],
                       ),
                     ],
                   ),
-                  Column(
-                    children: [
-                      Padding(
-                        padding: EdgeInsets.only(top: 10),
-                      ),
-                      Container(
-                        child: Stack(
-                          alignment: Alignment.center,
-                          children: <Widget>[
-                            Container(child: setContent(widget.recordFeed)),
-                          ],
-                        ),
-                      ),
-                    ],
+                ],
+              ),
+              Column(
+                children: [
+                  Padding(
+                    padding: EdgeInsets.only(top: 10),
                   ),
-                  ifLinkExist(widget.recordFeed),
-                  Divider(
-                    thickness: 2.0,
-                    color: Color(0xFFF57F17),
+                  Container(
+                    child: Stack(
+                      alignment: Alignment.center,
+                      children: <Widget>[
+                        Container(child: setContent(widget.recordFeed)),
+                      ],
+                    ),
                   ),
                 ],
-              )),
-        )
-      ],
+              ),
+              ifLinkExist(widget.recordFeed),
+              Divider(
+                thickness: 2.0,
+                color: Color(0xFFF57F17),
+              ),
+            ],
+          )),
     );
   }
 

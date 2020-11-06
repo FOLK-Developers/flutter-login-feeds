@@ -49,72 +49,75 @@ hexcolor(String colour) {
 }
 
 Widget customcard(String title, String sports, icon, String img, double sizec,
-    radius, context) {
+    radius, context, onpressed) {
   return Card(
     shape: RoundedRectangleBorder(
       borderRadius: BorderRadiusDirectional.circular(radius),
     ),
     margin: EdgeInsets.all(15.0),
-    child: Container(
-      decoration: BoxDecoration(
-        //  color: Colors.white,
-        borderRadius: BorderRadius.circular(radius),
-        image: DecorationImage(
-          image: title != null
-              ? NetworkImage(
-                  title,
-                )
-              : AssetImage('h'),
-          fit: BoxFit.cover,
+    child: GestureDetector(
+      onTap: onpressed,
+      child: Container(
+        decoration: BoxDecoration(
+          //  color: Colors.white,
+          borderRadius: BorderRadius.circular(radius),
+          image: DecorationImage(
+            image: title != null
+                ? NetworkImage(
+                    title,
+                  )
+                : AssetImage('h'),
+            fit: BoxFit.cover,
+          ),
         ),
-      ),
-      child: Padding(
-          padding: const EdgeInsets.all(0.0),
-          child: Column(
-            crossAxisAlignment: CrossAxisAlignment.start,
-            mainAxisAlignment: MainAxisAlignment.spaceBetween,
-            children: <Widget>[
-              Opacity(
-                opacity: 0.2,
-                child: Text(
-                  '',
-                  style: TextStyle(
-                      fontWeight: FontWeight.bold,
-                      fontSize: sizec,
-                      color: Colors.white),
-                ),
-              ),
-              Opacity(
-                opacity: 0.83,
-                child: Container(
-                  height: 50,
-                  width: MediaQuery.of(context).size.width * 2 / 5,
-                  color: Colors.white,
-                  child: Row(
-                    mainAxisAlignment: MainAxisAlignment.spaceAround,
-                    children: <Widget>[
-                      SizedBox(
-                        width: 10,
-                      ),
-                      CircleAvatar(
-                        backgroundImage: NetworkImage(img),
-                      ),
-                      SizedBox(
-                        width: 10.0,
-                      ),
-                      Expanded(
-                        child: Text(sports,
-                            overflow: TextOverflow.ellipsis,
-                            maxLines: 1,
-                            softWrap: false,
-                            style: TextStyle(fontWeight: FontWeight.bold)),
-                      ),
-                    ],
+        child: Padding(
+            padding: const EdgeInsets.all(0.0),
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+              children: <Widget>[
+                Opacity(
+                  opacity: 0.2,
+                  child: Text(
+                    '',
+                    style: TextStyle(
+                        fontWeight: FontWeight.bold,
+                        fontSize: sizec,
+                        color: Colors.white),
                   ),
                 ),
-              ),
-            ],
-          )),
+                Opacity(
+                  opacity: 0.83,
+                  child: Container(
+                    height: 50,
+                    width: MediaQuery.of(context).size.width * 2 / 5,
+                    color: Colors.white,
+                    child: Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceAround,
+                      children: <Widget>[
+                        SizedBox(
+                          width: 10,
+                        ),
+                        CircleAvatar(
+                          backgroundImage: NetworkImage(img),
+                        ),
+                        SizedBox(
+                          width: 10.0,
+                        ),
+                        Expanded(
+                          child: Text(sports,
+                              overflow: TextOverflow.ellipsis,
+                              maxLines: 1,
+                              softWrap: false,
+                              style: TextStyle(fontWeight: FontWeight.bold)),
+                        ),
+                      ],
+                    ),
+                  ),
+                ),
+              ],
+            )),
+      ),
     ),
   );
 }

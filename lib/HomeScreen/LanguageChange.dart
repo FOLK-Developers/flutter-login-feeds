@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:folk/Language/Localization/localizations.dart';
-import 'package:folk/LoginAuthentication/SplashScreen.dart';
+import 'package:folk/Services/LocaleHelper.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 class LanguageChange extends StatefulWidget {
@@ -36,11 +36,8 @@ class _LanguageChangeState extends State<LanguageChange> {
                       SharedPreferences prefs =
                           await SharedPreferences.getInstance();
                       prefs.setString('Language', 'en');
+                      helper.onLocaleChanged(Locale('en'));
                       Navigator.of(context).pop();
-                      Navigator.pushReplacement(
-                          context,
-                          MaterialPageRoute(
-                              builder: (context) => SplashScreen()));
                     },
                     child: Container(
                       decoration: BoxDecoration(
@@ -81,10 +78,7 @@ class _LanguageChangeState extends State<LanguageChange> {
                           await SharedPreferences.getInstance();
                       prefs.setString('Language', 'hi');
                       Navigator.of(context).pop();
-                      Navigator.pushReplacement(
-                          context,
-                          MaterialPageRoute(
-                              builder: (context) => SplashScreen()));
+                      helper.onLocaleChanged(Locale('hi'));
                     },
                     child: Container(
                       decoration: BoxDecoration(
@@ -134,10 +128,7 @@ class _LanguageChangeState extends State<LanguageChange> {
                           await SharedPreferences.getInstance();
                       prefs.setString('Language', 'tm');
                       Navigator.of(context).pop();
-                      Navigator.pushReplacement(
-                          context,
-                          MaterialPageRoute(
-                              builder: (context) => SplashScreen()));
+                      helper.onLocaleChanged(Locale('tm'));
                     },
                     child: Container(
                       decoration: BoxDecoration(
@@ -182,10 +173,7 @@ class _LanguageChangeState extends State<LanguageChange> {
                           await SharedPreferences.getInstance();
                       prefs.setString('Language', 'tl');
                       Navigator.of(context).pop();
-                      Navigator.pushReplacement(
-                          context,
-                          MaterialPageRoute(
-                              builder: (context) => SplashScreen()));
+                      helper.onLocaleChanged(Locale('tl'));
                     },
                     child: Container(
                       decoration: BoxDecoration(

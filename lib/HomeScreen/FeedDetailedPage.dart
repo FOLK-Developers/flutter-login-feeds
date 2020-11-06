@@ -4,7 +4,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:folk/Services/DynamicLinkService.dart';
 import 'package:folk/SharedWidgets/Posts.dart';
-import 'package:intl/intl.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
 class FeedMainPage extends StatefulWidget {
@@ -111,10 +110,6 @@ class _FeedMainPageState extends State<FeedMainPage> {
                     controller: _scrollController,
                     itemCount: _posts.length,
                     itemBuilder: (BuildContext context, int index) {
-                      int time = _posts[index].data()['creation_date'];
-                      final df = new DateFormat('dd-MM-yyyy hh:mm a');
-                      String creationDate = df.format(
-                          DateTime.fromMillisecondsSinceEpoch(time * 1000));
                       return Posts(
                         Docid: widget.Docid,
                         recordFeed: _posts[index],

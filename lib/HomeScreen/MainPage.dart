@@ -1,6 +1,7 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 import 'package:folk/Channels/ChannelList.dart';
+import 'package:folk/Channels/ChannelPage.dart';
 import 'package:folk/HomeScreen/FeedDetailedPage.dart';
 import 'package:folk/SharedWidgets/HomePageWidgets.dart';
 
@@ -61,7 +62,8 @@ class _MainPageState extends State<MainPage> {
                                   document.data()['user_image_url'],
                                   10.0,
                                   30.0,
-                                  context),
+                                  context,
+                                  () {}),
                             );
                           }).toList()),
                     ),
@@ -113,7 +115,8 @@ class _MainPageState extends State<MainPage> {
                                     document.data()['feed_image_url'],
                                     10.0,
                                     30.0,
-                                    context),
+                                    context,
+                                    () {}),
                               );
                             }),
                             Opacity(
@@ -274,7 +277,17 @@ class _MainPageState extends State<MainPage> {
                                         .data()['channel_link'],
                                     12.0),
                                 onTap: () {
-                                  // here navigation of your choise
+                                  Navigator.of(context).push(
+                                      MaterialPageRoute(builder: (context) {
+                                    return FancyAppbarAnimation(
+                                      Channel:
+                                          snapshot.data.docs.elementAt(4).id,
+                                      ChannelImage: snapshot.data.docs
+                                          .elementAt(4)
+                                          .data()['channel_link'],
+                                      Docid: widget.Docid,
+                                    );
+                                  }));
                                 },
                               )),
                         ],
