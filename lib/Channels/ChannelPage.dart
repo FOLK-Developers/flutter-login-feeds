@@ -493,10 +493,10 @@ class _FancyAppbarAnimationState extends State<FancyAppbarAnimation> {
                                 return new Text('Error: ${snapshotx.error}');
                               switch (snapshotx.connectionState) {
                                 case ConnectionState.waiting:
-                                  return Text('Loading...');
+                                  return Center(child: Text('Loading..'));
                                 default:
                                   return snapshotx.data.docs.isNotEmpty
-                                      ? ListView(
+                                      ? Column(
                                           children: <Widget>[
                                             ...snapshotx.data.docs.map(
                                                 (DocumentSnapshot document) {
